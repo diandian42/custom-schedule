@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/month/month",
+      "style": {
+        "navigationBarTitleText": "月计划"
+      }
+    },
+    {
+      "path": "pages/week/week",
+      "style": {
+        "navigationBarTitleText": "周计划"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "自定义计划表",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/month/month",
+        "iconPath": "static/tab-month.png",
+        "selectedIconPath": "static/tab-month-current.png",
+        "text": "月计划"
+      },
+      {
+        "pagePath": "pages/week/week",
+        "iconPath": "static/tab-week.png",
+        "selectedIconPath": "static/tab-week-current.png",
+        "text": "周计划"
+      }
+    ]
+  }
+}
+
